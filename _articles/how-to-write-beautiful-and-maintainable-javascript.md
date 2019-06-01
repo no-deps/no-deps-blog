@@ -230,10 +230,10 @@ Braces should be used in **all** block statements - this includes one line block
     while (Wumpus.is_alive()) Game.run();
     
     // Good
-    while (Wumpus.is_alive()) {
+    while (Wumpus.is_alive())
+    {
         Game.run();
-    }
-```
+    while (Wumpus.is_alive()) {
 
 ## Variables and functions
 
