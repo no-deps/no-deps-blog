@@ -1,10 +1,16 @@
 # Writing maintainable (and beautiful) JavaScript code
 
-Sep 29 2012 by Gustavo Henrique
+Last modified 2019/06/01 by [No Dependencies](https://github.com/no-deps)
 
-I don’t like JavaScript for many reasons, but I do have to use it on a daily basis. After writing shitty code for a while, I knew that I had to improve it because I was losing too much time trying to figure what my code was meant to do (lol).
+***Credits**: This article is based on and inspired by a 2012 [blog post](https://guh.me/writing-maintainable-and-beautiful-javascript-code) written by Gustavo Henrique. I think was a great article but it also deserved some updates and polishing as years went by and JavaScript evolved.*
 
-After reading a lot of web tutorials and a book ([Maintainable JavaScript, by Nicholas Zakas](http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680)), I wrote my own guidelines (obviously, inspired on what others said) to guide myself and my slaves team. ;)
+***Sidenote**: This article is intended to be a living document that evoles over time, in contrast to most articles written that are merely a snapshot in time but get outdated very fast in our fast moving space. If you want to add or improve something, don't hesitate to create a pull request, I would be happy to consider any suggestions!*
+
+No matter if you like JavaScript or not, these days it's hard to ignore that JavaScript rules the world and still enjoys a worse reputation than it acually deserves. Why? Because out there in the wild wild web there is so much straight out disgusting JavaScript code written by countless people who either don't care or don't know how to write it properly.
+
+Is that JavaScript's fault because it is so forgiving when dealing with sloppy code? I would argue no, it just does everything in its power to run whatever is thrown at it, no matter how bad the code. As developers it is our responsibility (and job after all) to write code that stays maintanable for years and is enjoyable to read for others at the same time.
+
+This article is based on my personal opinions and preferences for writing beautiful code and will most likely go against some (currently) established best-practices. So just read it, enjoy it and take from it whatever appeals to you. After all the world of code is not a dictatorship, different opinions are what can make us better developers if we embrace them!
 
 ## Apply correct indentation
 
