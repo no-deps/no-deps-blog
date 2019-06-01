@@ -215,6 +215,9 @@ Comments should be used when something is unclear, and must be indented accordin
 Braces should be used in **all** block statements - this includes one line blocks.
 
 ```
+    // Bad
+    if (User.has_wumpus()) user.hunt();
+    
     // Good, more readable than when without braces
     if (User.has_wumpus()) {
         User.hunt();
@@ -230,10 +233,10 @@ Braces should be used in **all** block statements - this includes one line block
     while (Wumpus.is_alive()) Game.run();
     
     // Good
-    while (Wumpus.is_alive())
-    {
-        Game.run();
     while (Wumpus.is_alive()) {
+        Game.run();
+    }
+```
 
 ## Variables and functions
 
